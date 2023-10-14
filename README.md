@@ -1,18 +1,19 @@
 # Stock_Price_Prediction
-Stock Price Prediction with LSTM
+Stock Price Prediction Using LSTM
 
-This project uses LSTM, a type of deep learning model, to predict stock prices. It's implemented in Python and utilizes the Keras library for creating and training the model. Here's an overview of the project:
+In this project, we employ Long Short-Term Memory (LSTM), a deep learning model, to forecast stock prices. The project is implemented in Python, making use of the Keras library for model creation and training. Here's an outline of the project:
 
-•	Data Import: We start by importing historical stock price data from a CSV file.
+•	Data Retrieval: We commence by importing historical stock price data from a CSV file.
 
-•	Data Preprocessing: We explore and preprocess the data, including scaling it to a range between 0 and 1 for better model performance.
+•	Data Preprocessing: The data is thoroughly examined and preprocessed. This includes scaling the data to a range between 0 and 1, enhancing the model's performance.
 
-•	Model Building: The heart of the project is a neural network consisting of four LSTM layers followed by dropout layers. These layers are designed to capture and learn patterns in the stock price data.
+•	Model Construction: The core of the project revolves around a neural network composed of four LSTM layers, augmented by dropout layers. These layers are meticulously designed to capture and learn intricate patterns within the stock price data.
 
-•	Training: The model is trained on a portion of the data, specifically the first 70% of the data, to learn how to make predictions.
+•	Training: The model is trained using a segment of the data, specifically the initial 70%, to acquire the knowledge required for making predictions.
 
-•	Testing and Prediction: The remaining 30% of the data is used for testing the model's performance. The model makes predictions for stock prices.
+•	Testing and Prediction: The remaining 30% of the data is reserved for testing the model's performance. This is where the model predicts stock prices.
 
-•	Evaluation: We compare the model's predictions with the actual stock prices and visualize the results to assess the model's accuracy.
+•	Assessment: We evaluate the model by comparing its predictions with the actual stock prices and generate visual representations to gauge the model's accuracy.
 
-This project is a demonstration of how deep learning techniques can be used to predict stock prices based on historical data.
+This project serves as a showcase of how advanced deep learning techniques can be harnessed to predict stock prices based on historical data. 
+
